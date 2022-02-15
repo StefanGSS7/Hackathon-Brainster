@@ -51,17 +51,13 @@ public class LoginTest {
 
     @Test(description = "Verify that the user cannot login with email and password field blank", groups = "")
     public void VERIFY_THAT_USER_CANNOT_LOGIN_WITH_NO_INPUT_FOR_EMAIL_AND_PASSWORD() {
-        UtilTrys.click_And_Send_Keys(EMAIL_FIELD, "staaaan_kuzmanovski@hotmail.com");
-        UtilTrys.click_And_Send_Keys(PASSWORD_FIELD, "asdqwe123");
         LOGIN_BUTTON.click();
         Assert.assertNotEquals(chromeDriver.getCurrentUrl(),LoginVariables.HOME_PAGE_URL);
     }
 
     @Test(description = "Verify that the register here button directs to the first step of the Register Page", groups = "")
     public void VERIFY_THAT_REGISTER_HERE_BUTTON_REDIRECTS_THE_USER_TO_THE_REGISTER_PAGE() {
-        UtilTrys.click_And_Send_Keys(EMAIL_FIELD, "staaaan_kuzmanovski@hotmail.com");
-        UtilTrys.click_And_Send_Keys(PASSWORD_FIELD, "asdqwe123");
-        LOGIN_BUTTON.click();
+        REGISTER_BUTTON.click();
         Assert.assertNotEquals(chromeDriver.getCurrentUrl(),LoginVariables.REGISTER_PAGE_URL);
     }
 
