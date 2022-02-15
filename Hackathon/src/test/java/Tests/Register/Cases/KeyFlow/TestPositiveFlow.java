@@ -62,7 +62,7 @@ public class TestPositiveFlow {
         nextBtn.click();
         Thread.sleep(50);
         nextBtn = wait.until(ExpectedConditions.presenceOfElementLocated(By.id(registerVariables.getUploadImageXpath())));
-        nextBtn.sendKeys("C:\\Users\\gafis\\Desktop\\Screen Shot 2021-12-20 at 14.59.01.png");
+        nextBtn.sendKeys("C:\\ProfileImage.jpg");
         Thread.sleep(50);
         nextBtn = wait.until(ExpectedConditions.presenceOfElementLocated(By.id(registerVariables.getSubmitFourBtnId())));
         nextBtn.click();
