@@ -6,17 +6,17 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.opera.OperaDriver;
-import org.testng.annotations.BeforeTest;
+
 
 
 public class WebDrivers {
 
-    WebDriver chromeDriver;
-    WebDriver edgeDriver;
-    WebDriver firefoxDriver;
-    WebDriver operaDriver;
-    @BeforeTest
-    public WebDriver getDriver(String driver){
+    public static WebDriver getDriver(String driver){
+
+        WebDriver chromeDriver= null;
+        WebDriver edgeDriver = null;
+        WebDriver firefoxDriver= null;
+        WebDriver operaDriver= null;
 
         if(driver == "chrome"){
             WebDriverManager.chromedriver().setup();
@@ -48,10 +48,6 @@ public class WebDrivers {
 
         return null;
     }
-
-
-
-
 
 
 }
