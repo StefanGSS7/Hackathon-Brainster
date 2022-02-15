@@ -1,4 +1,4 @@
-package Tests.Login;
+package Tests;
 
 import org.openqa.selenium.WebElement;
 

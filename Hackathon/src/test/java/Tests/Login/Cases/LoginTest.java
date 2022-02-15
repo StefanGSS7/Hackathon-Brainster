@@ -1,9 +1,8 @@
 package Tests.Login.Cases;
 
 import Tests.Login.LoginVariables;
-import Tests.Login.UtilTrys;
+import Tests.UtilTrys;
 import Tests.WebDrivers;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
@@ -12,7 +11,6 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class LoginTest {
-    LoginVariables lv;
     WebDriver chromeDriver;
     WebElement EMAIL_FIELD, PASSWORD_FIELD, LOGIN_BUTTON, REGISTER_BUTTON;
 
@@ -20,11 +18,11 @@ public class LoginTest {
     @BeforeMethod
     public void init() {
         chromeDriver = new WebDrivers().getDriver("chrome");
-        chromeDriver.get(lv.BASE_URL);
-        EMAIL_FIELD = chromeDriver.findElement(lv.EMAIL_INPUT_FIELD);
-        PASSWORD_FIELD = chromeDriver.findElement(lv.PASSWORD_INPUT_FIELD);
-        LOGIN_BUTTON = chromeDriver.findElement(lv.LOGIN_BUTTON);
-        REGISTER_BUTTON = chromeDriver.findElement(lv.REGISTER_HERE_BUTTON);
+        chromeDriver.get(LoginVariables.BASE_URL);
+        EMAIL_FIELD = chromeDriver.findElement(LoginVariables.EMAIL_INPUT_FIELD);
+        PASSWORD_FIELD = chromeDriver.findElement(LoginVariables.PASSWORD_INPUT_FIELD);
+        LOGIN_BUTTON = chromeDriver.findElement(LoginVariables.LOGIN_BUTTON);
+        REGISTER_BUTTON = chromeDriver.findElement(LoginVariables.REGISTER_HERE_BUTTON);
     }
 
     @Test(description = "Verify if a user will be able to login with a valid username and valid password.", groups = "Flow")
@@ -32,7 +30,7 @@ public class LoginTest {
         UtilTrys.click_And_Send_Keys(EMAIL_FIELD, "stefan_kuzmanovski@hotmail.com");
         UtilTrys.click_And_Send_Keys(PASSWORD_FIELD, "asdqwe123");
         LOGIN_BUTTON.click();
-        Assert.assertEquals(chromeDriver.getCurrentUrl(),lv.HOME_PAGE_URL);
+        Assert.assertEquals(chromeDriver.getCurrentUrl(),LoginVariables.HOME_PAGE_URL);
     }
 
     @Test(description = "Verify that the user cannot login with invalid password", groups = "")
@@ -40,7 +38,7 @@ public class LoginTest {
         UtilTrys.click_And_Send_Keys(EMAIL_FIELD, "stefan_kuzmanovski@hotmail.com");
         UtilTrys.click_And_Send_Keys(PASSWORD_FIELD, "asdqwe123aaa");
         LOGIN_BUTTON.click();
-        Assert.assertNotEquals(chromeDriver.getCurrentUrl(),lv.HOME_PAGE_URL);
+        Assert.assertNotEquals(chromeDriver.getCurrentUrl(),LoginVariables.HOME_PAGE_URL);
     }
 
     @Test(description = "Verify that the user cannot login with invalid email", groups = "")
@@ -48,7 +46,7 @@ public class LoginTest {
         UtilTrys.click_And_Send_Keys(EMAIL_FIELD, "staaaan_kuzmanovski@hotmail.com");
         UtilTrys.click_And_Send_Keys(PASSWORD_FIELD, "asdqwe123");
         LOGIN_BUTTON.click();
-        Assert.assertNotEquals(chromeDriver.getCurrentUrl(),lv.HOME_PAGE_URL);
+        Assert.assertNotEquals(chromeDriver.getCurrentUrl(),LoginVariables.HOME_PAGE_URL);
     }
 
     @Test(description = "Verify that the user cannot login with email and password field blank", groups = "")
@@ -56,7 +54,7 @@ public class LoginTest {
         UtilTrys.click_And_Send_Keys(EMAIL_FIELD, "staaaan_kuzmanovski@hotmail.com");
         UtilTrys.click_And_Send_Keys(PASSWORD_FIELD, "asdqwe123");
         LOGIN_BUTTON.click();
-        Assert.assertNotEquals(chromeDriver.getCurrentUrl(),lv.HOME_PAGE_URL);
+        Assert.assertNotEquals(chromeDriver.getCurrentUrl(),LoginVariables.HOME_PAGE_URL);
     }
 
     @Test(description = "Verify that the register here button directs to the first step of the Register Page", groups = "")
@@ -64,7 +62,7 @@ public class LoginTest {
         UtilTrys.click_And_Send_Keys(EMAIL_FIELD, "staaaan_kuzmanovski@hotmail.com");
         UtilTrys.click_And_Send_Keys(PASSWORD_FIELD, "asdqwe123");
         LOGIN_BUTTON.click();
-        Assert.assertNotEquals(chromeDriver.getCurrentUrl(),lv.REGISTER_PAGE_URL);
+        Assert.assertNotEquals(chromeDriver.getCurrentUrl(),LoginVariables.REGISTER_PAGE_URL);
     }
 
     @AfterMethod
