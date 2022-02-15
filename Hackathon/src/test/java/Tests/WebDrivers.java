@@ -20,22 +20,29 @@ public class WebDrivers {
 
         if(driver == "chrome"){
             WebDriverManager.chromedriver().setup();
-            this.chromeDriver = new ChromeDriver();
+            chromeDriver = new ChromeDriver();
+            chromeDriver.manage().window().maximize();
             return chromeDriver;
         }
         if(driver == "edge"){
             WebDriverManager.edgedriver().setup();
-            this.edgeDriver = new EdgeDriver();
+            edgeDriver.manage().window().maximize();
+            edgeDriver = new EdgeDriver();
+            chromeDriver.manage().window().maximize();
             return edgeDriver;
         }
         if(driver == "firefox"){
             WebDriverManager.firefoxdriver().setup();
-            this.firefoxDriver = new FirefoxDriver();
+            firefoxDriver.manage().window().maximize();
+            firefoxDriver = new FirefoxDriver();
+            chromeDriver.manage().window().maximize();
             return firefoxDriver;
         }
         if(driver == "opera"){
+            operaDriver.manage().window().maximize();
             WebDriverManager.operadriver().setup();
-            this.operaDriver = new OperaDriver();
+            operaDriver = new OperaDriver();
+            chromeDriver.manage().window().maximize();
             return operaDriver;
         }
 
