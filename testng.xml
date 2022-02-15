@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" parallel="true" thread-count="16"
+          name="C:/Users/gafis/Documents/GitHub/Hackathon-Brainster-1-/Hackathon/src/test/java/Tests/Register/Cases/All">
+        <packages>
+            <package name="Tests.Register.Cases.Retesting"></package>
+        </packages>
+    </test>
+</suite>

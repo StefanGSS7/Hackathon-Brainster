@@ -1,0 +1,100 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 27, Failures: 12, Errors: 0, Skipped: 0, Time elapsed: 131.817 sec <<< FAILURE!
+validCredentials(Tests.Register.Cases.Regresion.TestEmailInvalidDomain)  Time elapsed: 2.152 sec  <<< FAILURE!
+java.lang.AssertionError: did not expect to find [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertTrue(Assert.java:43)
+	at org.testng.Assert.assertTrue(Assert.java:53)
+	at Tests.Register.Cases.Regresion.TestEmailInvalidDomain.validCredentials(TestEmailInvalidDomain.java:52)
+
+validCredentials(Tests.Register.Cases.Regresion.TestNSymbolsForSurname)  Time elapsed: 2.736 sec  <<< FAILURE!
+java.lang.AssertionError: did not expect to find [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertTrue(Assert.java:43)
+	at org.testng.Assert.assertTrue(Assert.java:53)
+	at Tests.Register.Cases.Regresion.TestNSymbolsForSurname.validCredentials(TestNSymbolsForSurname.java:55)
+
+validCredentials(Tests.Register.Cases.Regresion.TestNumbersForName)  Time elapsed: 3.872 sec  <<< FAILURE!
+java.lang.AssertionError: did not expect to find [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertTrue(Assert.java:43)
+	at org.testng.Assert.assertTrue(Assert.java:53)
+	at Tests.Register.Cases.Regresion.TestNumbersForName.validCredentials(TestNumbersForName.java:53)
+
+validCredentials(Tests.Register.Cases.Regresion.TestNumbersForSurname)  Time elapsed: 2.288 sec  <<< FAILURE!
+java.lang.AssertionError: did not expect to find [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertTrue(Assert.java:43)
+	at org.testng.Assert.assertTrue(Assert.java:53)
+	at Tests.Register.Cases.Regresion.TestNumbersForSurname.validCredentials(TestNumbersForSurname.java:52)
+
+validCredentials(Tests.Register.Cases.Regresion.TestPasswordLimit)  Time elapsed: 3.933 sec  <<< FAILURE!
+java.lang.AssertionError: did not expect to find [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertTrue(Assert.java:43)
+	at org.testng.Assert.assertTrue(Assert.java:53)
+	at Tests.Register.Cases.Regresion.TestPasswordLimit.validCredentials(TestPasswordLimit.java:54)
+
+validCredentials(Tests.Register.Cases.Regresion.TestSymbolsForName)  Time elapsed: 3.079 sec  <<< FAILURE!
+java.lang.AssertionError: did not expect to find [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertTrue(Assert.java:43)
+	at org.testng.Assert.assertTrue(Assert.java:53)
+	at Tests.Register.Cases.Regresion.TestSymbolsForName.validCredentials(TestSymbolsForName.java:55)
+
+validCredentials(Tests.Register.Cases.Retesting.TestEmailInvalidDomain)  Time elapsed: 2.155 sec  <<< FAILURE!
+java.lang.AssertionError: did not expect to find [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertTrue(Assert.java:43)
+	at org.testng.Assert.assertTrue(Assert.java:53)
+	at Tests.Register.Cases.Retesting.TestEmailInvalidDomain.validCredentials(TestEmailInvalidDomain.java:51)
+
+validCredentials(Tests.Register.Cases.Retesting.TestNSymbolsForSurname)  Time elapsed: 2.115 sec  <<< FAILURE!
+java.lang.AssertionError: did not expect to find [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertTrue(Assert.java:43)
+	at org.testng.Assert.assertTrue(Assert.java:53)
+	at Tests.Register.Cases.Retesting.TestNSymbolsForSurname.validCredentials(TestNSymbolsForSurname.java:52)
+
+validCredentials(Tests.Register.Cases.Retesting.TestNumbersForName)  Time elapsed: 2.109 sec  <<< FAILURE!
+java.lang.AssertionError: did not expect to find [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertTrue(Assert.java:43)
+	at org.testng.Assert.assertTrue(Assert.java:53)
+	at Tests.Register.Cases.Retesting.TestNumbersForName.validCredentials(TestNumbersForName.java:52)
+
+validCredentials(Tests.Register.Cases.Retesting.TestNumbersForSurname)  Time elapsed: 2.196 sec  <<< FAILURE!
+java.lang.AssertionError: did not expect to find [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertTrue(Assert.java:43)
+	at org.testng.Assert.assertTrue(Assert.java:53)
+	at Tests.Register.Cases.Retesting.TestNumbersForSurname.validCredentials(TestNumbersForSurname.java:52)
+
+validCredentials(Tests.Register.Cases.Retesting.TestPasswordLimit)  Time elapsed: 2.214 sec  <<< FAILURE!
+java.lang.AssertionError: did not expect to find [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertTrue(Assert.java:43)
+	at org.testng.Assert.assertTrue(Assert.java:53)
+	at Tests.Register.Cases.Retesting.TestPasswordLimit.validCredentials(TestPasswordLimit.java:53)
+
+validCredentials(Tests.Register.Cases.Retesting.TestSymbolsForName)  Time elapsed: 2.4 sec  <<< FAILURE!
+java.lang.AssertionError: did not expect to find [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertTrue(Assert.java:43)
+	at org.testng.Assert.assertTrue(Assert.java:53)
+	at Tests.Register.Cases.Retesting.TestSymbolsForName.validCredentials(TestSymbolsForName.java:54)
+

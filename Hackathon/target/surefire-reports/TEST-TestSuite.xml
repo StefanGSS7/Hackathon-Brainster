@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="27" failures="12" name="TestSuite" time="88.066" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="11.0.13+10-LTS-370"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.13\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\gafis\Desktop\Hackathon"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\gafis\Desktop\Hackathon"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="11.0.13+10-LTS-370"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\gafis\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Program Files\apache-maven-3.8.4\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.13\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Java\jdk-11.0.13\bin;C:\Program Files\apache-maven-3.8.4\bin;C:\Program Files\Git\cmd;C:\Users\gafis\AppData\Local\Microsoft\WindowsApps;C:\Users\gafis\AppData\Local\GitHubDesktop\bin;."/>
+    <property name="maven.conf" value="C:\Program Files\apache-maven-3.8.4/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\Program Files\apache-maven-3.8.4\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\gafis"/>
+    <property name="user.timezone" value="Europe/Belgrade"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="user.name" value="gafis"/>
+    <property name="java.class.path" value="C:\Program Files\apache-maven-3.8.4\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Data=Retesting test"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.13"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="11.0.13"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="maven.home" value="C:\Program Files\apache-maven-3.8.4"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2021-10-19"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="ata" value="Retesting"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="Tests.Register.Cases.KeyFlow.TestPositiveFlow" name="flowTest" time="5.967"/>
+  <testcase classname="Tests.Register.Cases.Regresion.TestAcademySelection" name="validCredentials" time="4.003"/>
+  <testcase classname="Tests.Register.Cases.Regresion.TestAcademySelectionMandatory" name="validCredentials" time="2.455"/>
+  <testcase classname="Tests.Register.Cases.Regresion.TestAcademySelectionOnlyOne" name="validCredentials" time="2.689"/>
+  <testcase classname="Tests.Register.Cases.Regresion.TestBiographyMandatory" name="validCredentials" time="2.07"/>
+  <testcase classname="Tests.Register.Cases.Regresion.TestContinueRegistrationFourthForm" name="flowTest" time="5.619"/>
+  <testcase classname="Tests.Register.Cases.Regresion.TestContinueRegistrationSecondForm" name="flowTest" time="4.19"/>
+  <testcase classname="Tests.Register.Cases.Regresion.TestContinueRegistrationThirdForm" name="flowTest" time="4.512"/>
+  <testcase classname="Tests.Register.Cases.Regresion.TestEmailInvalidDomain" name="validCredentials" time="2.152">
+    <failure message="did not expect to find [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: did not expect to find [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertTrue(Assert.java:43)
+	at org.testng.Assert.assertTrue(Assert.java:53)
+	at Tests.Register.Cases.Regresion.TestEmailInvalidDomain.validCredentials(TestEmailInvalidDomain.java:52)
+</failure>
+  </testcase>
+  <testcase classname="Tests.Register.Cases.Regresion.TestEmailMandatory" name="validCredentials" time="2.069"/>
+  <testcase classname="Tests.Register.Cases.Regresion.TestNameMandatory" name="validCredentials" time="2.13"/>
+  <testcase classname="Tests.Register.Cases.Regresion.TestNextButton" name="validCredentials" time="3.835"/>
+  <testcase classname="Tests.Register.Cases.Regresion.TestNSymbolsForSurname" name="validCredentials" time="2.736">
+    <failure message="did not expect to find [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: did not expect to find [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertTrue(Assert.java:43)
+	at org.testng.Assert.assertTrue(Assert.java:53)
+	at Tests.Register.Cases.Regresion.TestNSymbolsForSurname.validCredentials(TestNSymbolsForSurname.java:55)
+</failure>
+  </testcase>
+  <testcase classname="Tests.Register.Cases.Regresion.TestNumbersForName" name="validCredentials" time="3.872">
+    <failure message="did not expect to find [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: did not expect to find [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertTrue(Assert.java:43)
+	at org.testng.Assert.assertTrue(Assert.java:53)
+	at Tests.Register.Cases.Regresion.TestNumbersForName.validCredentials(TestNumbersForName.java:53)
+</failure>
+  </testcase>
+  <testcase classname="Tests.Register.Cases.Regresion.TestNumbersForSurname" name="validCredentials" time="2.288">
+    <failure message="did not expect to find [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: did not expect to find [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertTrue(Assert.java:43)
+	at org.testng.Assert.assertTrue(Assert.java:53)
+	at Tests.Register.Cases.Regresion.TestNumbersForSurname.validCredentials(TestNumbersForSurname.java:52)
+</failure>
+  </testcase>
+  <testcase classname="Tests.Register.Cases.Regresion.TestPasswordLimit" name="validCredentials" time="3.933">
+    <failure message="did not expect to find [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: did not expect to find [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertTrue(Assert.java:43)
+	at org.testng.Assert.assertTrue(Assert.java:53)
+	at Tests.Register.Cases.Regresion.TestPasswordLimit.validCredentials(TestPasswordLimit.java:54)
+</failure>
+  </testcase>
+  <testcase classname="Tests.Register.Cases.Regresion.TestPasswordMandatory" name="validCredentials" time="3.142"/>
+  <testcase classname="Tests.Register.Cases.Regresion.TestSkillSelectLimit" name="validCredentials" time="6.879"/>
+  <testcase classname="Tests.Register.Cases.Regresion.TestSkillSelectMin" name="validCredentials" time="5.147"/>
+  <testcase classname="Tests.Register.Cases.Regresion.TestSurnameMandatory" name="validCredentials" time="2.11"/>
+  <testcase classname="Tests.Register.Cases.Regresion.TestSymbolsForName" name="validCredentials" time="3.079">
+    <failure message="did not expect to find [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: did not expect to find [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertTrue(Assert.java:43)
+	at org.testng.Assert.assertTrue(Assert.java:53)
+	at Tests.Register.Cases.Regresion.TestSymbolsForName.validCredentials(TestSymbolsForName.java:55)
+</failure>
+  </testcase>
+  <testcase classname="Tests.Register.Cases.Retesting.TestEmailInvalidDomain" name="validCredentials" time="2.155">
+    <failure message="did not expect to find [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: did not expect to find [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertTrue(Assert.java:43)
+	at org.testng.Assert.assertTrue(Assert.java:53)
+	at Tests.Register.Cases.Retesting.TestEmailInvalidDomain.validCredentials(TestEmailInvalidDomain.java:51)
+</failure>
+  </testcase>
+  <testcase classname="Tests.Register.Cases.Retesting.TestNSymbolsForSurname" name="validCredentials" time="2.115">
+    <failure message="did not expect to find [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: did not expect to find [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertTrue(Assert.java:43)
+	at org.testng.Assert.assertTrue(Assert.java:53)
+	at Tests.Register.Cases.Retesting.TestNSymbolsForSurname.validCredentials(TestNSymbolsForSurname.java:52)
+</failure>
+  </testcase>
+  <testcase classname="Tests.Register.Cases.Retesting.TestNumbersForName" name="validCredentials" time="2.109">
+    <failure message="did not expect to find [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: did not expect to find [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertTrue(Assert.java:43)
+	at org.testng.Assert.assertTrue(Assert.java:53)
+	at Tests.Register.Cases.Retesting.TestNumbersForName.validCredentials(TestNumbersForName.java:52)
+</failure>
+  </testcase>
+  <testcase classname="Tests.Register.Cases.Retesting.TestNumbersForSurname" name="validCredentials" time="2.196">
+    <failure message="did not expect to find [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: did not expect to find [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertTrue(Assert.java:43)
+	at org.testng.Assert.assertTrue(Assert.java:53)
+	at Tests.Register.Cases.Retesting.TestNumbersForSurname.validCredentials(TestNumbersForSurname.java:52)
+</failure>
+  </testcase>
+  <testcase classname="Tests.Register.Cases.Retesting.TestPasswordLimit" name="validCredentials" time="2.214">
+    <failure message="did not expect to find [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: did not expect to find [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertTrue(Assert.java:43)
+	at org.testng.Assert.assertTrue(Assert.java:53)
+	at Tests.Register.Cases.Retesting.TestPasswordLimit.validCredentials(TestPasswordLimit.java:53)
+</failure>
+  </testcase>
+  <testcase classname="Tests.Register.Cases.Retesting.TestSymbolsForName" name="validCredentials" time="2.4">
+    <failure message="did not expect to find [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: did not expect to find [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertTrue(Assert.java:43)
+	at org.testng.Assert.assertTrue(Assert.java:53)
+	at Tests.Register.Cases.Retesting.TestSymbolsForName.validCredentials(TestSymbolsForName.java:54)
+</failure>
+  </testcase>
+</testsuite>
